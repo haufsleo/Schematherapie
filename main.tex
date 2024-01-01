@@ -1,0 +1,57 @@
+\newif\ifdevelop
+\developtrue
+%\developfalse
+
+\documentclass[ngerman]{scrreprt}
+
+\input{data/header}
+
+\begin{document}
+
+\title{Schematherapie}
+%\author{}
+\subtitle{Anwendung bei verschiedenen Psychischen Gesundheitsstörungen}
+\date{}
+
+\maketitle
+
+\setcounter{page}{1} 
+\pagenumbering{roman}
+\tableofcontents{}
+\newpage
+
+\setcounter{page}{1} 
+\pagenumbering{arabic}
+
+\chapter{Einleitung}
+\input{chapter/introduction}
+
+\chapter{Schematherapie}
+\input{chapter/schematherapie_general}
+\input{chapter/schematherapie_modi}
+\input{chapter/schematherapie_verletzlichesKind}
+\input{chapter/schematherapie_negativeSelbstbewertung}
+\input{chapter/Schematherapie_bewaeltigungsstrategien_inneresKind}
+\input{chapter/schematherapie_dialogInneresKind}
+\input{chapter/schematherapie_bspBriefAnVerletztesKind}
+\input{chapter/schematherapie_selbstmitgefühlUeben}
+\input{chapter/schematherapie_selbstmitgefuelsbrief}
+\input{chapter/schematherapie_kritiker}
+\chapter{Bipolare Störung}
+\input{chapter/schematherapie_bipolar}
+
+\chapter{Zwangsstörungen}
+\input{chapter/schematherapie_zwangsstoerung}
+
+\chapter{Borderline-Persönlichkeitsstörung}
+\input{chapter/schematherapie_borderline}
+
+\chapter{Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS)}
+\input{chapter/schematherapie_adhs}
+
+\chapter{Vergleich und Abgrenzung}
+\input{chapter/comparison}
+
+
+
+\end{document}
