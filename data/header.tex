@@ -4,7 +4,11 @@
 \usepackage[onehalfspacing]{setspace} 
 
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
+
+\usepackage[ngerman]{babel}% deutsche Trennregeln
+\usepackage[T1]{fontenc}% wichtig für Trennung von Wörtern mit Umlauten
+\usepackage{microtype}% verbesserter Randausgleich
+
 % Durchgehende Nummerierung von Abbildungen über
 % Chapter hinaus
 %\usepackage{chngcntr}
@@ -62,4 +66,3 @@
 
 % Hyperlinks in PDF-Version des Dokumentes. Option sagt, dass keine roten Boxen erzeugt werden sollen.
 \usepackage[pdfborder={0 0 0}]{hyperref} 
-
